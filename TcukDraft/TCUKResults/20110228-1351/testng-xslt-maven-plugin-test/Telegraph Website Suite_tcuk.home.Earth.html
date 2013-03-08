@@ -1,0 +1,2162 @@
+<html xmlns:math="http://exslt.org/math" xmlns:testng="http://testng.org">
+   <head>
+      <title>TestNG XSLT Results</title>
+      <meta http-equiv="content-type" content="text/html; charset=utf-8"></meta>
+      <meta http-equiv="pragma" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="max-age=0"></meta>
+      <meta http-equiv="cache-control" content="no-cache"></meta>
+      <meta http-equiv="cache-control" content="no-store"></meta>
+      <LINK rel="stylesheet" href="style.css"></LINK>
+      <script type="text/javascript" src="main.js"></script>
+   </head>
+   <body>
+      <table width="100%" style="font-size: 16px; margin-bottom: 10px;" cellspacing="1">
+         <tr>
+            <td width="100%">
+               Test case
+               
+               <b>tcuk.home.Earth</b>
+            </td>
+            <td style="background-color: #FFBBBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">1</div>
+            </td>
+            <td style="background-color: lightgreen; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">20</div>
+            </td>
+            <td style="background-color: #FFFFBB; padding: 3px 3px 3px 0;" align="center">
+               <div style="width: 50px;">0</div>
+            </td>
+            <td align="center" style="background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">21</div>
+            </td>
+            <td align="center"
+                style="font-weight: bold; background-color: #eaf0f7; padding: 3px 3px 3px 0;">
+               <div style="width: 50px;">95%</div>
+            </td>
+            <td style="background-color: #eaf0f7; padding: 3px 3px 3px 0;" align="center"
+                nowrap="true"></td>
+         </tr>
+      </table>
+      <div style="width: 200px;">
+         <label for="groupMethodsCheckBox" style="font-weight: bold; margin: 0;">
+            <input id="groupMethodsCheckBox" type="checkbox" onclick="switchTestMethodsView(this)"
+                   checked=""></input>
+            Group by class
+            
+         </label>
+         <br></br>
+         <label for="methodsFilter_ALL" style="font-weight: bold; margin: 0;">
+            <input id="methodsFilter_ALL" type="checkbox"
+                   onclick="testMethodsFilterChanged(this, 'ALL')"
+                   checked=""></input>
+            All
+            
+         </label>
+      </div>
+      <label for="methodsFilter_FAIL" style="margin-left: 20px;">
+         <input id="methodsFilter_FAIL" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'FAIL')"
+                checked=""></input>
+         Failed
+         
+      </label>
+      <label for="methodsFilter_PASS">
+         <input id="methodsFilter_PASS" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'PASS')"
+                checked=""></input>
+         Passed
+         
+      </label>
+      <label for="methodsFilter_SKIP">
+         <input id="methodsFilter_SKIP" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'SKIP')"
+                checked=""></input>
+         Skipped
+         
+      </label>
+      <label for="methodsFilter_CONF">
+         <input id="methodsFilter_CONF" type="checkbox"
+                onclick="testMethodsFilterChanged(this, 'CONF')"
+                checked=""></input>
+         Config
+         
+      </label>
+      <br></br>
+      <div id="testMethodsByStatus" style="display: none;">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tcuk.home.EarthPageTest_mostViewed_byStatus_failed_FAIL1_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mostViewed_byStatus_failed_FAIL1_details')">mostViewed()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">63 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mostViewed_byStatus_failed_FAIL1_exception')">junit.framework.AssertionFailedError: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mostViewed_byStatus_failed_FAIL1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>mostViewed
+                     </div>
+                     <div>
+                        <b>Signature: </b>mostViewed()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>63 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mostViewed_byStatus_failed_FAIL1_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">junit.framework.AssertionFailedError
+                        	at junit.framework.Assert.fail(Assert.java:47)
+                        	at junit.framework.Assert.assertTrue(Assert.java:20)
+                        	at junit.framework.Assert.assertTrue(Assert.java:27)
+                        	at tcuk.GlobalTests.checkMostViewed(GlobalTests.java:673)
+                        	at tcuk.home.EarthPageTest.mostViewed(EarthPageTest.java:79)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                        	at java.lang.reflect.Method.invoke(Method.java:597)
+                        	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:607)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:874)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.runWorkers(TestRunner.java:689)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:566)
+                        	at org.testng.TestRunner.run(TestRunner.java:466)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:301)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:296)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:276)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:191)
+                        	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:808)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:776)
+                        	at org.testng.TestNG.run(TestNG.java:701)
+                        	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+                        	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+                        	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                        	at java.lang.reflect.Method.invoke(Method.java:597)
+                        	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:334)
+                        	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tcuk.home.EarthPageTest_openPage_byStatus_passed_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_openPage_byStatus_passed_PASS1_details')">openPage()</a>
+               </td>
+               <td nowrap="true">13:52:25</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_openPage_byStatus_passed_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>openPage
+                     </div>
+                     <div>
+                        <b>Signature: </b>openPage()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:25
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_mpu_byStatus_passed_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mpu_byStatus_passed_PASS2_details')">mpu()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">31 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mpu_byStatus_passed_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>mpu
+                     </div>
+                     <div>
+                        <b>Signature: </b>mpu()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>31 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_hotTopics_byStatus_passed_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_hotTopics_byStatus_passed_PASS3_details')">hotTopics()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_hotTopics_byStatus_passed_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>hotTopics
+                     </div>
+                     <div>
+                        <b>Signature: </b>hotTopics()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_moreFromTelegraph_byStatus_passed_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_moreFromTelegraph_byStatus_passed_PASS4_details')">moreFromTelegraph()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">31 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_moreFromTelegraph_byStatus_passed_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>moreFromTelegraph
+                     </div>
+                     <div>
+                        <b>Signature: </b>moreFromTelegraph()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>31 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_brand_byStatus_passed_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_brand_byStatus_passed_PASS5_details')">brand()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">110 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_brand_byStatus_passed_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>brand
+                     </div>
+                     <div>
+                        <b>Signature: </b>brand()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>110 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footerBottom_byStatus_passed_PASS6_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footerBottom_byStatus_passed_PASS6_details')">footerBottom()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">219 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footerBottom_byStatus_passed_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footerBottom
+                     </div>
+                     <div>
+                        <b>Signature: </b>footerBottom()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>219 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_primaryNavigation_byStatus_passed_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_primaryNavigation_byStatus_passed_PASS7_details')">primaryNavigation()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">203 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_primaryNavigation_byStatus_passed_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>primaryNavigation
+                     </div>
+                     <div>
+                        <b>Signature: </b>primaryNavigation()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>203 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_secondaryNavigation_byStatus_passed_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_secondaryNavigation_byStatus_passed_PASS8_details')">secondaryNavigation()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_secondaryNavigation_byStatus_passed_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>secondaryNavigation
+                     </div>
+                     <div>
+                        <b>Signature: </b>secondaryNavigation()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer6thColumn_byStatus_passed_PASS9_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer6thColumn_byStatus_passed_PASS9_details')">footer6thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:32</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer6thColumn_byStatus_passed_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer6thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer6thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer5thColumn_byStatus_passed_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer5thColumn_byStatus_passed_PASS10_details')">footer5thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">313 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer5thColumn_byStatus_passed_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer5thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer5thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>313 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_header_byStatus_passed_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_header_byStatus_passed_PASS11_details')">header()</a>
+               </td>
+               <td nowrap="true">13:52:32</td>
+               <td nowrap="true" align="right">62 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_header_byStatus_passed_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>header
+                     </div>
+                     <div>
+                        <b>Signature: </b>header()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>62 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer3rdColumn_byStatus_passed_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer3rdColumn_byStatus_passed_PASS12_details')">footer3rdColumn()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">360 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer3rdColumn_byStatus_passed_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer3rdColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer3rdColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>360 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_banner_byStatus_passed_PASS13_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_banner_byStatus_passed_PASS13_details')">banner()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_banner_byStatus_passed_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>banner
+                     </div>
+                     <div>
+                        <b>Signature: </b>banner()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer4thColumn_byStatus_passed_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer4thColumn_byStatus_passed_PASS14_details')">footer4thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">265 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer4thColumn_byStatus_passed_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer4thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer4thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>265 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_adSky_byStatus_passed_PASS15_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_adSky_byStatus_passed_PASS15_details')">adSky()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_adSky_byStatus_passed_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>adSky
+                     </div>
+                     <div>
+                        <b>Signature: </b>adSky()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_topBar_byStatus_passed_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_topBar_byStatus_passed_PASS16_details')">topBar()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">125 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_topBar_byStatus_passed_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>topBar
+                     </div>
+                     <div>
+                        <b>Signature: </b>topBar()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>125 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_editorsChoice_byStatus_passed_PASS17_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_editorsChoice_byStatus_passed_PASS17_details')">editorsChoice()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">46 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_editorsChoice_byStatus_passed_PASS17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>editorsChoice
+                     </div>
+                     <div>
+                        <b>Signature: </b>editorsChoice()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>46 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer1stColumn_byStatus_passed_PASS18_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer1stColumn_byStatus_passed_PASS18_details')">footer1stColumn()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">234 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer1stColumn_byStatus_passed_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer1stColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer1stColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>234 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer2ndColumn_byStatus_passed_PASS19_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer2ndColumn_byStatus_passed_PASS19_details')">footer2ndColumn()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">266 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer2ndColumn_byStatus_passed_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer2ndColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer2ndColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>266 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_backToTop_byStatus_passed_PASS20_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_backToTop_byStatus_passed_PASS20_details')">backToTop()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_backToTop_byStatus_passed_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>backToTop
+                     </div>
+                     <div>
+                        <b>Signature: </b>backToTop()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+      </div>
+      <div id="testMethodsByClass">
+         <table class="testMethodsTable" cellpadding="0" cellspacing="0">
+            <tr>
+               <td colspan="4">
+                  <h3 style="display: inline;">tcuk.home.EarthPageTest</h3>
+               </td>
+            </tr>
+            <tr class="methodsTableHeader">
+               <td width="100%">Name</td>
+               <td nowrap="true">Started</td>
+               <td nowrap="true">Duration</td>
+               <td>Exception</td>
+            </tr>
+            <tr id="tcuk.home.EarthPageTest_openPage_byClass_PASS1_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_openPage_byClass_PASS1_details')">openPage()</a>
+               </td>
+               <td nowrap="true">13:52:25</td>
+               <td nowrap="true" align="right">4s
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_openPage_byClass_PASS1_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>openPage
+                     </div>
+                     <div>
+                        <b>Signature: </b>openPage()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:25
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>4s
+                        
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_primaryNavigation_byClass_PASS2_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_primaryNavigation_byClass_PASS2_details')">primaryNavigation()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">203 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_primaryNavigation_byClass_PASS2_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>primaryNavigation
+                     </div>
+                     <div>
+                        <b>Signature: </b>primaryNavigation()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>203 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer3rdColumn_byClass_PASS3_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer3rdColumn_byClass_PASS3_details')">footer3rdColumn()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">360 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer3rdColumn_byClass_PASS3_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer3rdColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer3rdColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>360 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_adSky_byClass_PASS4_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_adSky_byClass_PASS4_details')">adSky()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_adSky_byClass_PASS4_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>adSky
+                     </div>
+                     <div>
+                        <b>Signature: </b>adSky()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer1stColumn_byClass_PASS5_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer1stColumn_byClass_PASS5_details')">footer1stColumn()</a>
+               </td>
+               <td nowrap="true">13:52:29</td>
+               <td nowrap="true" align="right">234 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer1stColumn_byClass_PASS5_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer1stColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer1stColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:29
+                     </div>
+                     <div>
+                        <b>Duration: </b>234 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_mpu_byClass_PASS6_row" class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mpu_byClass_PASS6_details')">mpu()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">31 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mpu_byClass_PASS6_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>mpu
+                     </div>
+                     <div>
+                        <b>Signature: </b>mpu()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>31 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_hotTopics_byClass_PASS7_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_hotTopics_byClass_PASS7_details')">hotTopics()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_hotTopics_byClass_PASS7_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>hotTopics
+                     </div>
+                     <div>
+                        <b>Signature: </b>hotTopics()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_moreFromTelegraph_byClass_PASS8_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_moreFromTelegraph_byClass_PASS8_details')">moreFromTelegraph()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">31 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_moreFromTelegraph_byClass_PASS8_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>moreFromTelegraph
+                     </div>
+                     <div>
+                        <b>Signature: </b>moreFromTelegraph()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>31 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_brand_byClass_PASS9_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_brand_byClass_PASS9_details')">brand()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">110 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_brand_byClass_PASS9_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>brand
+                     </div>
+                     <div>
+                        <b>Signature: </b>brand()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>110 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_secondaryNavigation_byClass_PASS10_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_secondaryNavigation_byClass_PASS10_details')">secondaryNavigation()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_secondaryNavigation_byClass_PASS10_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>secondaryNavigation
+                     </div>
+                     <div>
+                        <b>Signature: </b>secondaryNavigation()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer5thColumn_byClass_PASS11_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer5thColumn_byClass_PASS11_details')">footer5thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">313 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer5thColumn_byClass_PASS11_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer5thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer5thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>313 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_editorsChoice_byClass_PASS12_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_editorsChoice_byClass_PASS12_details')">editorsChoice()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">46 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_editorsChoice_byClass_PASS12_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>editorsChoice
+                     </div>
+                     <div>
+                        <b>Signature: </b>editorsChoice()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>46 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_backToTop_byClass_PASS13_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_backToTop_byClass_PASS13_details')">backToTop()</a>
+               </td>
+               <td nowrap="true">13:52:30</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_backToTop_byClass_PASS13_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>backToTop
+                     </div>
+                     <div>
+                        <b>Signature: </b>backToTop()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:30
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footerBottom_byClass_PASS14_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footerBottom_byClass_PASS14_details')">footerBottom()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">219 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footerBottom_byClass_PASS14_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footerBottom
+                     </div>
+                     <div>
+                        <b>Signature: </b>footerBottom()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>219 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_banner_byClass_PASS15_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_banner_byClass_PASS15_details')">banner()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">47 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_banner_byClass_PASS15_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>banner
+                     </div>
+                     <div>
+                        <b>Signature: </b>banner()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>47 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer4thColumn_byClass_PASS16_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer4thColumn_byClass_PASS16_details')">footer4thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">265 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer4thColumn_byClass_PASS16_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer4thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer4thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>265 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_mostViewed_byClass_FAIL17_row"
+                class="testMethodStatusFAIL">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mostViewed_byClass_FAIL17_details')">mostViewed()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">63 ms
+                  
+               </td>
+               <td nowrap="true">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_mostViewed_byClass_FAIL17_exception')">junit.framework.AssertionFailedError: </a>
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mostViewed_byClass_FAIL17_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>mostViewed
+                     </div>
+                     <div>
+                        <b>Signature: </b>mostViewed()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>63 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_mostViewed_byClass_FAIL17_exception"
+                       class="testMethodDetails">
+                     <pre style="padding: 5px; margin: 0;">junit.framework.AssertionFailedError
+                        	at junit.framework.Assert.fail(Assert.java:47)
+                        	at junit.framework.Assert.assertTrue(Assert.java:20)
+                        	at junit.framework.Assert.assertTrue(Assert.java:27)
+                        	at tcuk.GlobalTests.checkMostViewed(GlobalTests.java:673)
+                        	at tcuk.home.EarthPageTest.mostViewed(EarthPageTest.java:79)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                        	at java.lang.reflect.Method.invoke(Method.java:597)
+                        	at org.testng.internal.MethodHelper.invokeMethod(MethodHelper.java:580)
+                        	at org.testng.internal.Invoker.invokeMethod(Invoker.java:478)
+                        	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:607)
+                        	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:874)
+                        	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+                        	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+                        	at org.testng.TestRunner.runWorkers(TestRunner.java:689)
+                        	at org.testng.TestRunner.privateRun(TestRunner.java:566)
+                        	at org.testng.TestRunner.run(TestRunner.java:466)
+                        	at org.testng.SuiteRunner.runTest(SuiteRunner.java:301)
+                        	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:296)
+                        	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:276)
+                        	at org.testng.SuiteRunner.run(SuiteRunner.java:191)
+                        	at org.testng.TestNG.createAndRunSuiteRunners(TestNG.java:808)
+                        	at org.testng.TestNG.runSuitesLocally(TestNG.java:776)
+                        	at org.testng.TestNG.run(TestNG.java:701)
+                        	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+                        	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+                        	at org.apache.maven.surefire.Surefire.run(Surefire.java:177)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+                        	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:39)
+                        	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:25)
+                        	at java.lang.reflect.Method.invoke(Method.java:597)
+                        	at org.apache.maven.surefire.booter.SurefireBooter.runSuitesInProcess(SurefireBooter.java:334)
+                        	at org.apache.maven.surefire.booter.SurefireBooter.main(SurefireBooter.java:980)
+                     </pre>
+                  </div>
+               </td>
+            </tr>
+            <tr id="tcuk.home.EarthPageTest_topBar_byClass_PASS18_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_topBar_byClass_PASS18_details')">topBar()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">125 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_topBar_byClass_PASS18_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>topBar
+                     </div>
+                     <div>
+                        <b>Signature: </b>topBar()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>Duration: </b>125 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer2ndColumn_byClass_PASS19_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer2ndColumn_byClass_PASS19_details')">footer2ndColumn()</a>
+               </td>
+               <td nowrap="true">13:52:31</td>
+               <td nowrap="true" align="right">266 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer2ndColumn_byClass_PASS19_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer2ndColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer2ndColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:31
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>266 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_footer6thColumn_byClass_PASS20_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_footer6thColumn_byClass_PASS20_details')">footer6thColumn()</a>
+               </td>
+               <td nowrap="true">13:52:32</td>
+               <td nowrap="true" align="right">250 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_footer6thColumn_byClass_PASS20_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>footer6thColumn
+                     </div>
+                     <div>
+                        <b>Signature: </b>footer6thColumn()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>250 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+            <tr id="tcuk.home.EarthPageTest_header_byClass_PASS21_row"
+                class="testMethodStatusPASS">
+               <td width="100%" class="firstMethodCell">
+                  <a onclick="toggleDetailsVisibility('tcuk.home.EarthPageTest_header_byClass_PASS21_details')">header()</a>
+               </td>
+               <td nowrap="true">13:52:32</td>
+               <td nowrap="true" align="right">62 ms
+                  
+               </td>
+               <td nowrap="true">
+                   
+                  
+               </td>
+            </tr>
+            <tr>
+               <td colspan="4" class="detailsBox">
+                  <div id="tcuk.home.EarthPageTest_header_byClass_PASS21_details"
+                       class="testMethodDetails">
+                     <div>
+                        <b>Name: </b>header
+                     </div>
+                     <div>
+                        <b>Signature: </b>header()
+                     </div>
+                     <div>
+                        <b>Start time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>End time: </b>13:52:32
+                     </div>
+                     <div>
+                        <b>Duration: </b>62 ms
+                        
+                     </div>
+                     <div>
+                        <b>Depends on methods:
+                           
+                        </b>
+                        <div>
+                               -
+                           tcuk.home.EarthPageTest.openPage
+                        </div>
+                     </div>
+                  </div>
+               </td>
+            </tr>
+            <tr></tr>
+         </table>
+         <br></br>
+      </div>
+      <div style="margin-top: 15px; color: gray; text-align: center; font-size: 9px;">
+         Generated with
+         
+         <a href="http://code.google.com/p/testng-xslt/" style="color: #8888aa;"
+            target="_blank">
+            TestNG XSLT
+            
+         </a>
+      </div>
+   </body>
+</html>

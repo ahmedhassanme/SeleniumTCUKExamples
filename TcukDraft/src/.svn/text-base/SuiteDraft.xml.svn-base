@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Telegraph Website Suite" >
+
+<!--  tcuk-->
+	<test name="tcuk.Home" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.HomePageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home-->
+	<test name="tcuk.home.Comment" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.CommentPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Culture" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.CulturePageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Earth" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.EarthPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Education" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.EducationPageTest" />
+    	</classes>
+  	</test>
+ 
+</suite>
+

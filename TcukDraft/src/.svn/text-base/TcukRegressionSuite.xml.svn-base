@@ -1,0 +1,1962 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="Telegraph Website Suite" >
+
+<!--  tcuk-->
+	<test name="tcuk.Home" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.HomePageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home-->
+	<test name="tcuk.home.Comment" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.CommentPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Culture" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.CulturePageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Earth" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.EarthPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Education" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.EducationPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Expat" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.ExpatPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Family" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.FamilyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Fashion" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.FashionPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.Finance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.FinancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.FoodAndDrink" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.FoodAndDrinkPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Gardening" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.GardeningPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Health" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.HealthPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Lifestyle" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.LifestylePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Motoring" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.MotoringPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.News" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.NewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Property" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.PropertyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Relationships" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.RelationshipsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Science" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.SciencePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Sport" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.SportPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Technology" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.TechnologyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.TelegraphTV" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.TelegraphTvPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.Travel" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.TravelPageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home.comment-->
+	<test name="tcuk.home.comment.Blogs" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.BlogsPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.comment.Cartoons" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.CartoonsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.Columnists" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.ColumnistsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.Letters" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.LettersPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.PersonalView" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.PersonalViewPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.TelegraphView" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.TelegraphViewPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.comment.columnists-->
+	<test name="tcuk.home.comment.columnists.AllisonPearson" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.columnists.AllisonPearsonPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.columnists.BorisJohnson" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.columnists.BorisJohnsonPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.columnists.CharlesMoore" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.columnists.CharlesMoorePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.columnists.MatthewDancona" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.columnists.MatthewDanconaPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.comment.columnists.SimonHeffer" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.comment.columnists.SimonHefferPageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home.culture-->
+	<test name="tcuk.home.culture.Art" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.ArtPageTest" />
+    	</classes>
+  	</test>
+
+	<test name="tcuk.home.culture.Books" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.BooksPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.CulturePictureGalleries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.CulturePictureGalleriesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.CultureVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.CultureVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.Film" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.FilmPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.HayFestival" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.HayFestivalPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.Music" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.MusicPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.Photography" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.PhotographyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.Theatre" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.TheatrePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.TvAndRadio" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.TvAndRadioPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.art-->
+ 	<test name="tcuk.home.culture.art.ArtSales" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.art.ArtSalesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.art.TurnerPrize" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.art.TurnerPrizePageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.books-->
+ 	<test name="tcuk.home.culture.books.BookClub" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.books.BookClubPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.books.BookerPrize" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.books.BookerPrizePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.books.BookReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.books.BookReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.books.FictionReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.books.FictionReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.books.NonFictionReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.books.NonFictionReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.culturecritics-->
+ 	<test name="tcuk.home.culture.culturecritics.GillianReynolds" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturecritics.GillianReynoldsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.culturevideo-->
+ 	<test name="tcuk.home.culture.culturevideo.ArtVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturevideo.ArtVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.culturevideo.BooksVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturevideo.BooksVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.culturevideo.FilmVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturevideo.FilmVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.culturevideo.StageVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturevideo.StageVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.culturevideo.filmvideo-->
+ 	<test name="tcuk.home.culture.culturevideo.filmvideo.CinemaTrailers" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.culturevideo.filmvideo.CinemaTrailersPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.film-->
+ 	<test name="tcuk.home.culture.film.Baftas" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.BaftasPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.DvdReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.DvdReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.FilmBlog" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.FilmBlogPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.FilmLife" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.FilmLifePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.FilmReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.FilmReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.Oscars" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.OscarsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.film.StarsAndStories" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.film.StarsAndStoriesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.music-->
+ 	<test name="tcuk.home.culture.music.ClassicalMusic" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.music.ClassicalMusicPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.music.MusicNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.music.MusicNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.music.RockAndPopFeatures" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.music.RockAndPopFeaturesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.music.RockAndPopReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.music.RockAndPopReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.music.WorldFolkAndJazz" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.music.WorldFolkAndJazzPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.theatre-->
+ 	<test name="tcuk.home.culture.theatre.Comedy" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.theatre.ComedyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.theatre.Dance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.theatre.DancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.theatre.Drama" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.theatre.DramaPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.theatre.TheatreTrailers" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.theatre.TheatreTrailersPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.culture.tvandradio-->
+	<test name="tcuk.home.culture.tvandradio.Bbc" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.tvandradio.BbcPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.tvandradio.DoctorWho" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.tvandradio.DoctorWhoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.tvandradio.StrictlyComeDancing" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.tvandradio.StrictlyComeDancingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.tvandradio.TheApprentice" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.tvandradio.TheApprenticePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.culture.tvandradio.Xfactor" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.culture.tvandradio.XfactorPageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home.earth-->
+	<test name="tcuk.home.earth.EarthNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.EarthNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.earth.EarthPictureGalleries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.EarthPictureGalleriesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.earth.EarthVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.EarthVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.earth.Environment" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.EnvironmentPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.earth.Outdoors" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.OutdoorsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.earth.Wildlife" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.WildlifePageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.earth.environment-->
+	<test name="tcuk.home.earth.environment.ClimateChange" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.earth.environment.ClimateChangePageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.education-->
+	<test name="tcuk.home.education.ExpatEducation" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.education.ExpatEducationPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.education.LeagueTables" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.education.LeagueTablesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.education.PrimaryEducation" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.education.PrimaryEducationPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.education.SecondaryEducation" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.education.SecondaryEducationPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.education.UniversityEducation" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.education.UniversityEducationPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance-->
+	<test name="tcuk.home.family.FamilyVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.family.FamilyVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.family.Sister2Sister" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.family.Sister2SisterPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance-->
+	<test name="tcuk.home.finance.BusinessClub" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.BusinessClubPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.Comment" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.CommentPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.Currency" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.CurrencyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.Economics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.EconomicsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.LondonOlympicsBusiness" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.LondonOlympicsBusinessPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.Markets" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.MarketsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.NewsBySector" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.NewsBySectorPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.PersonalFinance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.PersonalFinancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.YourBusiness" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.YourBusinessPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.businessclub-->
+	<test name="tcuk.home.finance.businessclub.Gloombusters" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.businessclub.GloombustersPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.businessclub.Money" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.businessclub.MoneyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.businessclub.People" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.businessclub.PeoplePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.businessclub.Sales" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.businessclub.SalesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.businessclub.Technology" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.businessclub.TechnologyPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.comment-->
+	<test name="tcuk.home.finance.comment.DamianReece" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.DamianReecePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.EdmundConway" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.EdmundConwayPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.EvansPritchard" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.EvansPritchardPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.JeffRandall" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.JeffRandallPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.JeremyWarner" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.JeremyWarnerPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.KamalAhmed" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.KamalAhmedPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.comment.RichardFletcher" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.comment.RichardFletcherPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.financevideo-->
+	<test name="tcuk.home.finance.financevideo.YourBusinessVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.financevideo.YourBusinessVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.financevideo.YourMoneyTheirHands" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.financevideo.YourMoneyTheirHandsPageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home.finance.markets-->
+	<test name="tcuk.home.finance.markets.Ftse100" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.markets.Ftse100PageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.markets.MarketReport" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.markets.MarketReportPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.markets.Questor" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.markets.QuestorPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.newsbysector-->
+	<test name="tcuk.home.finance.newsbysector.BanksAndFinance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.BanksAndFinancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Construction" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.ConstructionPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Energy" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.EnergyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Industry" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.IndustryPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.MediaAndTelecoms" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.MediaAndTelecomsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Pharmaceauticals" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.PharmaceauticalsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Retail" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.RetailPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.newsbysector.Transport" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.newsbysector.TransportPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.personalfinance-->
+	<test name="tcuk.home.finance.personalfinance.ConsumerTips" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.ConsumerTipsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.personalfinance.Investing" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.InvestingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.personalfinance.OffshoreFinance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.OffshoreFinancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.personalfinance.Pensions" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.PensionsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.personalfinance.Savings" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.SavingsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.personalfinance.borrowing-->
+	<test name="tcuk.home.finance.personalfinance.borrowing.Mortgages" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.borrowing.MortgagesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.personalfinance.investing-->
+	<test name="tcuk.home.finance.personalfinance.investing.Gold" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.investing.GoldPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.personalfinance.investing.Isas" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.personalfinance.investing.IsasPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.finance.yourbusiness-->
+	<test name="tcuk.home.finance.yourbusiness.BrightIdeas" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.yourbusiness.BrightIdeasPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.yourbusiness.BusinessThinking" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.yourbusiness.BusinessThinkingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.yourbusiness.NationalBusinessAwards" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.yourbusiness.NationalBusinessAwardsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.finance.yourbusiness.StartingOut" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.finance.yourbusiness.StartingOutPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.foodanddrink-->
+	<test name="tcuk.home.foodanddrink.FoodAndDrinkVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.foodanddrink.FoodAndDrinkVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.foodanddrink.Pubs" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.foodanddrink.PubsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.foodanddrink.Recipes" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.foodanddrink.RecipesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.foodanddrink.Restaurants" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.foodanddrink.RestaurantsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.foodanddrink.Wine" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.foodanddrink.WinePageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.gardening-->
+	<test name="tcuk.home.gardening.Beekeeping" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.BeekeepingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.gardening.GardeningAdvice" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.GardeningAdvicePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.gardening.GardeningVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.GardeningVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.gardening.GardensToVisit" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.GardensToVisitPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.gardening.HowToGrow" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.HowToGrowPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.gardening.gardeningadvice-->
+	<test name="tcuk.home.gardening.gardeningadvice.HelenYemm" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.gardening.gardeningadvice.HelenYemmPageTest" />
+    	</classes>
+  	</test>
+
+<!--tcuk.home.health-->
+	<test name="tcuk.home.health.DietAndFitness" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.DietAndFitnessPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.ExpatHealth" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.ExpatHealthPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.Flu" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.FluPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.HealthAdvice" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.HealthAdvicePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.HealthNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.HealthNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.SwineFlu" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.SwineFluPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.health.Wellbeing" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.health.WellbeingPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.motoring-->
+	<test name="tcuk.home.motoring.CarReviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.CarReviewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.motoring.News" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.NewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.motoring.RoadSafety" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.RoadSafetyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.motoring.TopGear" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.TopGearPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.motoring.columnists-->
+	<test name="tcuk.home.motoring.columnists.JamesMay" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.columnists.JamesMayPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.motoring.columnists.MikeRutherford" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.columnists.MikeRutherfordPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.motoring.columnists.NeilLyndon" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.motoring.columnists.NeilLyndonPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news-->
+	<test name="tcuk.home.news.Obituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.ObituariesPageTest" />
+    	</classes>
+  	</test> 	
+  	
+  	<test name="tcuk.home.news.Uk" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.UkPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.news.World" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.WorldPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.author-->
+	<test name="tcuk.home.news.author.BenedictBrogan" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.author.BenedictBroganPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.author.PeterOborne" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.author.PeterObornePageTest" />
+    	</classes>
+  	</test> 
+  	
+<!--tcuk.home.news.newstopics-->
+	<test name="tcuk.home.news.newstopics.CelebrityNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.CelebrityNewsPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.news.newstopics.HowAboutThat" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.HowAboutThatPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.LocalElections" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.LocalElectionsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.Politics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.PoliticsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.Religion" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.ReligionPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.TheRoyalFamily" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.TheRoyalFamilyPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.newstopics.politics-->
+	<test name="tcuk.home.news.newstopics.politics.DavidCameron" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.politics.DavidCameronPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.politics.Defence" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.politics.DefencePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.politics.EdMiliband" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.politics.EdMilibandPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.politics.NickClegg" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.politics.NickCleggPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.newstopics.politics.Scotland" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.newstopics.politics.ScotlandPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.obituaries-->
+	<test name="tcuk.home.news.obituaries.CelebrityObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.CelebrityObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.CultureObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.CultureObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.FinanceObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.FinanceObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.LawObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.LawObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.MedicineObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.MedicineObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.MilitaryObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.MilitaryObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.PoliticsObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.PoliticsObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.ReligionObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.ReligionObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.RoyaltyObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.RoyaltyObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.ScienceObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.ScienceObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.SportObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.SportObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.obituaries.TechnologyObituaries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.obituaries.TechnologyObituariesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.uknews-->
+	<test name="tcuk.home.news.uknews.NorthernIreland" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.uknews.NorthernIrelandPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.uknews.RoadAndRailTransport" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.uknews.RoadAndRailTransportPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.uknews.RoyalWedding" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.uknews.RoyalWeddingPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.worldnews-->
+	<test name="tcuk.home.news.worldnews.AfricaAndIndianOcean" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.AfricaAndIndianOceanPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.Asia" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.AsiaPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.AustraliaAndThePacific" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.AustraliaAndThePacificPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.Europe" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.EuropePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.MiddleEast" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.MiddleEastPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.SouthAmerica" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.SouthAmericaPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.worldnews.asia-->
+	<test name="tcuk.home.news.worldnews.asia.CentralAsia" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.asia.CentralAsiaPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.news.worldnews.asia.China" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.asia.ChinaPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.worldnews.northamerica-->
+	<test name="tcuk.home.news.worldnews.northamerica.Usa" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.northamerica.UsaPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.news.worldnews.northamerica.usa-->
+	<test name="tcuk.home.news.worldnews.northamerica.usa.UsPolitics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.news.worldnews.northamerica.usa.UsPoliticsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.property-->
+	<test name="tcuk.home.property.ExpatProperty" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.property.ExpatPropertyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.property.OverseasProperty" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.property.OverseasPropertyPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.property.PropertyNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.property.PropertyNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.property.PropertyPictureGalleries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.property.PropertyPictureGalleriesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.relationships-->
+	<test name="tcuk.home.relationships.Divorce" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.DivorcePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.relationships.OnlineDating" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.OnlineDatingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.relationships.RelationshipAdviceAndRomance" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.RelationshipAdviceAndRomancePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.relationships.SelfHelp" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.SelfHelpPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.relationships.SexualHealthAndAdvice" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.SexualHealthAndAdvicePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.relationships.ValentinesDay" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.relationships.ValentinesDayPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.science-->
+	<test name="tcuk.home.science.Dinosaurs" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.DinosaursPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.Evolution" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.EvolutionPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.PictureGalleries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.PictureGalleriesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.RogerHighfield" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.RogerHighfieldPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.ScienceNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.ScienceNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.Space" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.SpacePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.science.SteveJones" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.science.SteveJonesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport-->
+	<test name="tcuk.home.sport.Cricket" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.CricketPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.Football" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.FootballPageTest" />
+    	</classes>
+  	</test>   
+  	
+  	<test name="tcuk.home.sport.Golf" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.GolfPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.HorseRacing" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.HorseRacingPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.RugbyUnion" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.RugbyUnionPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.Tennis" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.TennisPageTest" />
+    	</classes>
+  	</test>   
+  	
+<!--tcuk.home.sport.category-->
+	<test name="tcuk.home.sport.category.Football" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.category.FootballPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.sport.category.Olympics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.category.OlympicsPageTest" />
+    	</classes>
+  	</test> 
+  	
+<!--tcuk.home.sport.cricket-->
+	<test name="tcuk.home.sport.cricket.Counties" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.CountiesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.cricket.CricketWorldCup" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.CricketWorldCupPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.cricket.International" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.InternationalPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.cricket.cricketworldcup-->
+	<test name="tcuk.home.sport.cricket.cricketworldcup.CricketWorldCup2011Fixtures" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.cricketworldcup.CricketWorldCup2011FixturesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.cricket.international-->
+	<test name="tcuk.home.sport.cricket.international.England" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.international.EnglandPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.cricket.international.TheAshes" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.international.TheAshesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.cricket.results-->
+	<test name="tcuk.home.sport.cricket.results.EnglandInAustralia201011Results" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.cricket.results.EnglandInAustralia201011ResultsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.football-->
+	<test name="tcuk.home.sport.football.FootballTransfers" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.FootballTransfersPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.football.LiveScores" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.LiveScoresPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.football.Teams" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.TeamsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.football.competitions.premierleague-->
+	<test name="tcuk.home.sport.football.competitions.premierleague.Tables" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.competitions.premierleague.TablesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.football.fixtures-->
+	<test name="tcuk.home.sport.football.fixtures.FootballFixtures" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.fixtures.FootballFixturesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.football.rankings-->
+	<test name="tcuk.home.sport.football.rankings.PremierLeagueStatistics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.rankings.PremierLeagueStatisticsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.football.results-->
+	<test name="tcuk.home.sport.football.results.FootballResults" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.football.results.FootballResultsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.golf-->
+	<test name="tcuk.home.sport.golf.EuropeanTourLiveLeaderboard" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.EuropeanTourLiveLeaderboardPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.golf.EuropeanTour" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.EuropeanTourPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.golf.GolfShop" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.GolfShopPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.golf.RyderCup" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.RyderCupPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.golf.TigerWoods" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.TigerWoodsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.golf.UsTour" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.UsTourPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.golf.europeantour-->
+	<test name="tcuk.home.sport.golf.europeantour.EuropeanTourCalendar" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.europeantour.EuropeanTourCalendarPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.golf.ustour-->
+	<test name="tcuk.home.sport.golf.ustour.UsTourCalendar" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.golf.ustour.UsTourCalendarPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.horseracing-->
+	<test name="tcuk.home.sport.horseracing.CheltenhamFestival" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.horseracing.CheltenhamFestivalPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.motorsport-->
+	<test name="tcuk.home.sport.motorsport.FormulaOne" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.FormulaOnePageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.motorsport.formulaone-->
+	<test name="tcuk.home.sport.motorsport.formulaone.JensonButton" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.JensonButtonPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.motorsport.formulaone.LewisHamilton" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.LewisHamiltonPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.sport.motorsport.formulaone.LiveFormula1" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.LiveFormula1PageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.sport.motorsport.formulaone.MichaelSchumacher" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.MichaelSchumacherPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.sport.motorsport.formulaone.Teams" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.TeamsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.motorsport.formulaone.actionphotos-->
+	<test name="tcuk.home.sport.motorsport.formulaone.actionphotos.FormulaOneActionPhotos" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.actionphotos.FormulaOneActionPhotosPageTest" />
+    	</classes>
+  	</test> 
+  	
+<!--tcuk.home.sport.motorsport.formulaone.statistics-->
+	<test name="tcuk.home.sport.motorsport.formulaone.statistics.Formula1StatisticsDriversAndConstructors" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.motorsport.formulaone.statistics.Formula1StatisticsDriversAndConstructorsPageTest" />
+    	</classes>
+  	</test>    
+  	
+<!--tcuk.home.sport.othersports-->
+	<test name="tcuk.home.sport.othersports.BoxingAndMma" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.BoxingAndMmaPageTest" />
+    	</classes>
+  	</test>   	
+  	
+  	<test name="tcuk.home.sport.othersports.Cycling" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.CyclingPageTest" />
+    	</classes>
+  	</test>  		
+  	
+  	<test name="tcuk.home.sport.othersports.Olympics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.OlympicsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.ParalympicSport" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.ParalympicSportPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.othersports.boxingandmma-->
+	<test name="tcuk.home.sport.othersports.boxingandmma.BoxingAndMmaActionPhotos" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.boxingandmma.BoxingAndMmaActionPhotosPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.boxingandmma.DavidHaye" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.boxingandmma.DavidHayePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.boxingandmma.GarethADavies" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.boxingandmma.GarethADaviesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.boxingandmma.MannyPacquiao" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.boxingandmma.MannyPacquiaoPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.othersports.cycling-->
+	<test name="tcuk.home.sport.othersports.cycling.BradleyWiggins" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.cycling.BradleyWigginsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.cycling.LanceArmstrong" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.cycling.LanceArmstrongPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.cycling.MarkCavendish" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.cycling.MarkCavendishPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.cycling.TourDeFrance2010VideoHighlights" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.cycling.TourDeFrance2010VideoHighlightsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.othersports.olympics-->
+	<test name="tcuk.home.sport.othersports.olympics.London2012OlympicsCompetitionSchedule" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.olympics.London2012OlympicsCompetitionSchedulePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.olympics.London2012OlympicsSportBySportGuide" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.olympics.London2012OlympicsSportBySportGuidePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.olympics.London2012OlympicsTicketsGuide" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.olympics.London2012OlympicsTicketsGuidePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.olympics.London2012OlympicsVenueGuide" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.olympics.London2012OlympicsVenueGuidePageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.othersports.olympics.OlympicsEvents" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.othersports.olympics.OlympicsEventsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.rugbyunion-->
+	<test name="tcuk.home.sport.rugbyunion.ClubPage" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.ClubPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.rugbyunion.International" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.InternationalPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.sport.rugbyunion.RugbyUnionTablesAndStandings" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.RugbyUnionTablesAndStandingsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.rugbyunion.fixtures-->
+	<test name="tcuk.home.sport.rugbyunion.fixtures.RbsSixNationsFixtures" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.fixtures.RbsSixNationsFixturesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.rugbyunion.fixtures.RugbyUnionFixtures" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.fixtures.RugbyUnionFixturesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.rugbyunion.fixtures.RugbyUnionStatistics" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.fixtures.RugbyUnionStatisticsPageTest" />
+    	</classes>
+  	</test>  
+  	
+<!--tcuk.home.sport.rugbyunion.international-->
+	<test name="tcuk.home.sport.rugbyunion.international.SixNations" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.international.SixNationsPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.rugbyunion.international.sixnations-->
+	<test name="tcuk.home.sport.rugbyunion.international.sixnations.SixNations2011VideoHighlights" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.international.sixnations.SixNations2011VideoHighlightsPageTest" />
+    	</classes>
+  	</test> 
+  	
+<!--tcuk.home.sport.rugbyunion.results-->
+	<test name="tcuk.home.sport.rugbyunion.results.RbsSixNationsResults" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.results.RbsSixNationsResultsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.rugbyunion.results.RugbyUnionResults" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.rugbyunion.results.RugbyUnionResultsPageTest" />
+    	</classes>
+  	</test> 
+  	
+<!--tcuk.home.sport.sportvideo-->
+	<test name="tcuk.home.sport.sportvideo.BoxingAndMmaVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.sportvideo.BoxingAndMmaVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.sportvideo.CricketVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.sportvideo.CricketVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.sportvideo.FootballVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.sportvideo.FootballVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.sportvideo.OlympicsVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.sportvideo.OlympicsVideoPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.tennis-->
+	<test name="tcuk.home.sport.tennis.AndyMurray" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.AndyMurrayPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.tennis.AtpTour" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.AtpTourPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.tennis.AustralianOpen" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.AustralianOpenPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.tennis.RafaelNadal" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.RafaelNadalPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.tennis.RogerFederer" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.RogerFedererPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.sport.tennis.WtaTour" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.WtaTourPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.sport.tennis.actionphotos-->
+	<test name="tcuk.home.sport.tennis.actionphotos.TennisActionPhotos" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.sport.tennis.actionphotos.TennisActionPhotosPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.technology-->
+	<test name="tcuk.home.technology.Reviews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.ReviewsPageTest" />
+    	</classes>
+  	</test>  
+  	
+  	<test name="tcuk.home.technology.TechnologyCompanies" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.TechnologyCompaniesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.technology.TechnologyNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.TechnologyNewsPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.technology.TechnologyStartup100" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.TechnologyStartup100PageTest" />
+    	</classes>
+  	</test>   	
+  	
+  	<test name="tcuk.home.technology.TechnologyVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.TechnologyVideoPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.technology.VideoGames" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.technology.VideoGamesPageTest" />
+    	</classes>
+  	</test>
+  	
+<!--tcuk.home.travel-->
+	<test name="tcuk.home.travel.CityBreaks" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.CityBreaksPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.travel.Columnists" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.ColumnistsPageTest" />
+    	</classes>
+  	</test>     
+  	
+  	<test name="tcuk.home.travel.Cruises" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.CruisesPageTest" />
+    	</classes>
+  	</test>   
+  	
+  	<test name="tcuk.home.travel.Destinations" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.DestinationsPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.travel.HolidayTypes" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.HolidayTypesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.travel.Hotels" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.HotelsPageTest" />
+    	</classes>
+  	</test> 
+  	
+  	<test name="tcuk.home.travel.PictureGalleries" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.PictureGalleriesPageTest" />
+    	</classes>
+  	</test>
+  	
+  	<test name="tcuk.home.travel.SnowAndSki" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.SnowAndSkiPageTest" />
+    	</classes>
+  	</test>  
+  	
+  	<test name="tcuk.home.travel.TravelNews" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.TravelNewsPageTest" />
+    	</classes>
+  	</test>       
+  	
+  	<test name="tcuk.home.travel.TravelVideo" preserve-order="true">
+    	<classes>
+       		<class name="tcuk.home.travel.TravelVideoPageTest" />
+    	</classes>
+  	</test>           
+</suite>
